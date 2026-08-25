@@ -1,4 +1,7 @@
+from gettext import install
 import math
+
+import pip
 num = int(input('Digite um número: '))
 raiz = math.sqrt(num)
 print("A raiz de {} é igual a {}.".format(num, math.ceil(raiz)))
@@ -31,3 +34,9 @@ num = random.randint(1, 10)
 print(num)
 
 # random.randint(1, 10) = gera um número inteiro aleatório entre 1 e 10
+
+import emoji
+print(emoji.emojize("Python é :thumbs_up:")) # e
+
+# emoji.emojize("Python é :thumbs_up:") = gera um emoji de acordo com o código passado
+# thumbs_up = 👍
