@@ -10,3 +10,10 @@ comprimento_cateto_adjacente = float(input("Digite o comprimento do cateto adjac
 hipotenusa = hypot (comprimento_cateto, comprimento_cateto_adjacente)
 print("A hipotenusa vai medir {}".format(hipotenusa))
 
+# Resposta do Guanabara
+
+co = float(input("Comprimento do cateto oposto: "))
+ca = float(input("Comprimento do cateto adjacente: "))
+hi = (co ** 2 + ca ** 2) ** (1/2)
+print("A hipotenusa vai medir {:.2f}".format(hi))
+
