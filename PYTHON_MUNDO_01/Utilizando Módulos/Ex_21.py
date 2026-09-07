@@ -6,7 +6,7 @@
 import os
 
 pasta_script = os.path.dirname(os.path.abspath(__file__))
-caminho_mp3 = os.path.join(pasta_script, "Escondido Em Mim.mp3")
+caminho_mp3 = os.path.join(pasta_script, "Ex_21.mp3")
 
 os.startfile(caminho_mp3)
 
@@ -14,6 +14,6 @@ os.startfile(caminho_mp3)
 
 import pygame
 pygame.init()
-pygame.mixer.music.load("Escondido Em Mim.mp3")
+pygame.mixer.music.load("Ex_21.mp3")
 pygame.mixer.music.play()
 pygame.event.wait()
