@@ -68,5 +68,45 @@ print(frase.find('Android'))
 print('Curso' in frase)
 # in vem de dentro, então ele vai verificar se a string 'Curso' está dentro da string 'Curso em Vídeo Python'. O resultado é True.
 
+# Transformação de strings
 
+print(frase.replace('Python', 'Android'))
+# replace vem de substituir, então ele vai substituir a string 'Python' pela string 'Android' na string 'Curso em Vídeo Python'. O resultado é 'Curso em Vídeo Android'.
+
+# Outra forma de transformação de strings
+
+print(frase.upper())
+# upper vem de maiúsculo, então ele vai transformar todos os caracteres da string 'Curso
+    # em Vídeo Python' em maiúsculo. O resultado é 'CURSO EM VÍDEO PYTHON'.
+
+# Outra forma de transformação de strings
+
+print(frase.lower())
+# lower vem de minúsculo, então ele vai transformar todos os caracteres da string 'Curso
+    # em Vídeo Python' em minúsculo. O resultado é 'curso em vídeo python'.
+
+# Outra forma de transformação de strings
+
+print(frase.capitalize())
+# capitalize vem de capitalizar, então ele vai transformar o primeiro caractere da string 'Curso em Vídeo Python' em maiúsculo e os demais caracteres em minúsculo. O resultado é 'Curso em vídeo python'.
+
+# Outra forma de transformação de strings
+
+print(frase.title())
+# title vem de título, então ele vai transformar o primeiro caractere de cada palavra da string
+
+# Outra forma de transformação de strings: Com a string ' Aprenda Python'.
+
+print(frase.strip())
+# strip vem de remover, então ele vai remover os espaços em branco do início e do final
+
+# Outra forma de transformação de strings
+
+print(frase.rstrip())
+# rstrip vem de remover à direita, então ele vai remover os espaços em branco do final da string 'Curso em Vídeo Python'.
+
+# Outra forma de transformação de strings
+
+print(frase.lstrip())
+# lstrip vem de remover à esquerda, então ele vai remover os espaços em branco do início
 
