@@ -39,3 +39,34 @@ print(frase[9::3])  # VePh
 
 
 
+# Análise de strings
+
+print(len(frase))  
+# len vem de length, que significa comprimento, então ele vai contar quantos caracteres tem na string, incluindo os espaços. O resultado é 21.
+
+# Outra forma de análise de strings
+
+print(frase.count('o'))
+# count vem de contar, então ele vai contar quantas vezes o caractere 'o' aparece na string. O resultado é 3.
+
+# Outra forma de análise de strings
+print(frase.count('o', 0, 13))
+# contagem com fatiamento, então ele vai contar quantas vezes o caractere 'o' aparece na string, mas só vai contar do índice 0 até o índice 13, então o resultado é 1.
+
+# Outra forma de análise de strings
+
+print(frase.find('deo'))
+# find vem de encontrar, então ele vai encontrar o índice do início da string 'deo' na string 'Curso em Vídeo Python'. O resultado é 11.
+
+# Outra forma de análise de strings
+
+print(frase.find('Android'))
+# se não encontrar a string, ele vai retornar -1, então o resultado é -1.
+
+# Outra forma de análise de strings
+
+print('Curso' in frase)
+# in vem de dentro, então ele vai verificar se a string 'Curso' está dentro da string 'Curso em Vídeo Python'. O resultado é True.
+
+
+
