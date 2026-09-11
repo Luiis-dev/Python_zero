@@ -47,12 +47,12 @@ Its also easy for beginners to use and learn, so jump in!""")
 
 # print com """()""" serve para imprimir textos multilinha
 
-# 
+# Análise de strings
 frase = "Curso em vídeo de python"
 print(frase.count("o")) # conta quantas vezes a letra "o" aparece na frase
 # O maiúsculo é diferente de o minúsculo
 
-# 
+# Análise de strings
 frase = "Curso em vídeo de python"
 print(frase.upper().count("O")) # conta quantas vezes a letra "o" aparece na frase, ignorando maiúsculas e minúsculas
 
@@ -60,7 +60,7 @@ print(frase.upper().count("O")) # conta quantas vezes a letra "o" aparece na fra
 frase = "Curso em vídeo de python"
 print(len(frase)) # conta quantos caracteres tem na frase, incluindo espaços
 
-#
+# 
 frase = "Curso em vídeo de python"
 frase [0] = "J" # não é possível alterar uma string, pois elas são imutáveis
 
@@ -69,12 +69,12 @@ frase = "Curso em vídeo de python"
 frase = frase.replace("python", "Android") # substitui a palavra "python" por "Android"
 print(frase) # a frase original não é alterada, pois strings são imutáveis
 
-#
+# Análise de strings
 frase = "Curso em vídeo de python"
 frase = frase.replace("python", "Android") # substitui a palavra "python" por "Android"
 print("Curso" in frase)  # verifica se a palavra "Curso" está na frase
 
-# 
+# Análise de strings
 frase = "Curso em vídeo de python"
 print(frase.find("Curso")) # retorna o índice da primeira ocorrência da palavra "Curso" na frase
 # se for retornar -1, significa que a palavra não foi encontrada na frase
@@ -83,7 +83,7 @@ print(frase.find("Curso")) # retorna o índice da primeira ocorrência da palavr
 frase = "Curso em vídeo de python"
 print(frase.lower().find("vídeo"))
 
-# 
+# Divisão de strings
 frase = "Curso em vídeo de python"
 print(frase.split()) # divide a frase em uma lista de palavras, separadas por espaços
 
@@ -92,7 +92,7 @@ frase = "Curso em vídeo de python"
 dividido = frase.split() # divide a frase em uma lista de palavras, separadas
 print(dividido[0]) # imprime a primeira palavra da lista
 
-# 
+# Divisão de strings
 frase = "Curso em vídeo de python"
 dividido = frase.split() # divide a frase em uma lista de palavras, separadas
 print(dividido[2][3]) # imprime o quarto caractere da terceira palavra da lista
