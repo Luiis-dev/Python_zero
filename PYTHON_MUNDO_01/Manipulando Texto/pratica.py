@@ -97,3 +97,4 @@ frase = "Curso em vídeo de python"
 dividido = frase.split() # divide a frase em uma lista de palavras, separadas
 print(dividido[2][3]) # imprime o quarto caractere da terceira palavra da lista
 # exemplo: dividido[2] = "vídeo", então dividido[2][3] = "e"
+
