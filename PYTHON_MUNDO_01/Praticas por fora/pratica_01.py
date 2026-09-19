@@ -6,12 +6,11 @@
 # o resultado das 4 operações básicas (+, -, *, /). 
 
 n1 = int(input("Digite um número: "))
-n2 = int(input("Digite outr número: "))
+n2 = int(input("Digite outro número: "))
 adicao = n1 + n2
 subtracacao = n1 - n2
 multiplicacao = n1 * n2
 divisao = n1 / n2
-
 print(f"""
 Adiçao: {adicao}
 Subtração: {subtracacao}
@@ -19,6 +18,45 @@ Multiplicação: {multiplicacao}
 Divisão: {divisao}
 """) 
 
-# Questão 2
+# Ou 
 
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
+adicao = n1 + n2
+subtracacao = n1 - n2
+multiplicacao = n1 * n2
+divisao = n1 / n2
+print(f"""Adiçao: {adicao}\nSubtração: {subtracacao}\nMultiplicação: {multiplicacao}\nDivisão: {divisao}""") 
+
+# Ou
+
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
+adicao = n1 + n2
+subtracacao = n1 - n2
+multiplicacao = n1 * n2
+divisao = n1 / n2
+print("Adiçao: {}\nSubtração: {}\nMultiplicação: {}\nDivisão: {}".format(adicao, subtracacao, multiplicacao, divisao))
+
+
+# Questão 2
+ 
+# Calcule o resto e o quociente da 
+# divisão entre dois números (use % e //).
+
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
+resto_da_divisao = n1 % n2
+divisao_inteira = n1 // n2
+print("O Resto da divisão digitada de {} e {} é {}".format(n1, n2, resto_da_divisao))
+print("A Divisão inteira digitada de {} e {} é {}".format(n1, n2, divisao_inteira))
+
+# Ou
+
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
+resto_da_divisao = n1 % n2
+divisao_inteira = n1 // n2
+print(f"O Resto da divisão digitada de {n1} e {n2} é {resto_da_divisao}")
+print(f"A Divisão inteira digitada de {n1} e {n2} é {divisao_inteira}")
 
