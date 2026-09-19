@@ -16,4 +16,4 @@ Divisão: {divisao}
 Resto da divisão: {resto_divisao}
 Divisão inteira: {divisao_inteira}
 Potenciação: {potenciacao}
-""")
+""") 
