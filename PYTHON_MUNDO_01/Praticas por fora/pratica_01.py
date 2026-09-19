@@ -60,3 +60,18 @@ divisao_inteira = n1 // n2
 print(f"O Resto da divisão digitada de {n1} e {n2} é {resto_da_divisao}")
 print(f"A Divisão inteira digitada de {n1} e {n2} é {divisao_inteira}")
 
+# Questão 3
+
+# Peça um número e mostre o seu quadrado e o seu cubo (use **)
+
+n1 = int(input("Digite um número: "))
+quadrado = n1 ** 2
+cubo = n1 ** 3
+print("O quadrado de {} é {} e o cubo é {}".format(n1, quadrado, cubo))
+
+# Ou
+
+n1 = int(input("Digite um número: "))
+quadrado = n1 ** 2
+cubo = n1 ** 3
+print(f"O quadrado de {n1} é {quadrado} e o cubo é {cubo}")
