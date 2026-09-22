@@ -75,3 +75,4 @@ n1 = int(input("Digite um número: "))
 quadrado = n1 ** 2
 cubo = n1 ** 3
 print(f"O quadrado de {n1} é {quadrado} e o cubo é {cubo}")
+
