@@ -76,3 +76,7 @@ quadrado = n1 ** 2
 cubo = n1 ** 3
 print(f"O quadrado de {n1} é {quadrado} e o cubo é {cubo}")
 
+# Nível 2 — Combinando operadores
+
+# Peça a nota de 3 provas e calcule a média aritmética simples.
+
