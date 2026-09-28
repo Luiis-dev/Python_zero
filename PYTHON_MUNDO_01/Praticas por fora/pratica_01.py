@@ -91,7 +91,7 @@ print(f"Nota 1: {n1}\nNota 2: {n2}\nNota 3: {n3}")
 print(f"A sua quantidade é: {quantidade}")
 print(f"A divisão de tudo é: {divisao}")
 
-# Ou
+# Outra forma 
 
 n1 = float(input("Digite um número: "))
 n2 = float(input("Digite um número: "))
@@ -101,4 +101,17 @@ quantidade = 3
 media = soma / quantidade
 print(f"Nota 1: {n1}\nNota 2: {n2}\nNota 3: {n3}")
 print(f"A média aritmética simples é: {media}")
+
+# Outra forma com .format
+
+n1 = float(input("Digite um número: "))
+n2 = float(input("Digite um número: "))
+n3 = float(input("Digite um número: "))
+soma = n1 + n2 + n3
+quantidade = 3
+media = soma / quantidade
+print("A nota dessa média aritmética simples é")
+print("Nota 1: {}\nNota 2: {}\nNota 3: {}".format(n1, n2, n3))
+print("A sua quantidade é: {}".format(quantidade))
+print("A divisão de tudo é: {}".format(divisao))
 
