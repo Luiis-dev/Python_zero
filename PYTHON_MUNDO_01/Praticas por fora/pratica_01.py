@@ -115,3 +115,9 @@ print("Nota 1: {}\nNota 2: {}\nNota 3: {}".format(n1, n2, n3))
 print("A sua quantidade é: {}".format(quantidade))
 print("A divisão de tudo é: {}".format(divisao))
 
+# Peça o preço de um produto e a quantidade comprada; 
+# calcule o total, aplicando 10% de desconto se a quantidade
+# for maior que 5 (pode usar só aritmética por enquanto
+# sem if, supondo quantidade fixa > 5).
+
+
