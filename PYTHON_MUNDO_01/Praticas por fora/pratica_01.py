@@ -60,7 +60,7 @@ divisao_inteira = n1 // n2
 print(f"O Resto da divisão digitada de {n1} e {n2} é {resto_da_divisao}")
 print(f"A Divisão inteira digitada de {n1} e {n2} é {divisao_inteira}")
 
-# Questão 3
+# 
 
 # Peça um número e mostre o seu quadrado e o seu cubo (use **)
 
@@ -77,6 +77,8 @@ cubo = n1 ** 3
 print(f"O quadrado de {n1} é {quadrado} e o cubo é {cubo}")
 
 # Nível 2 — Combinando operadores
+
+# Questão 4
 
 # Peça a nota de 3 provas e calcule a média aritmética simples.
 
