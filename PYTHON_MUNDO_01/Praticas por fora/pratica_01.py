@@ -125,3 +125,5 @@ print("A divisão de tudo é: {}".format(divisao))
 # sem if, supondo quantidade fixa > 5).
 
 
+
+
